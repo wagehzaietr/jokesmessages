@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: url(https://picsum.photos/2650/1440.jpg?blur=1);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 65px;
+}
+.container{
+    width: 750px;
+    height: 450px;
+    background-color: rgba(252, 252, 252, 0.219);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    filter: blur(0.4px);
+    box-shadow: 0 0 12px 0 rgba(3, 3, 3, 0.753),
+    0 0 14px 0 rgba(3, 3, 3, 0.438),
+    0 0 17px 0 rgba(3, 3, 3, 0.466);
+}
+p{
+    padding-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+button{
+    width: 150px;
+    height: 26px;
+    border-radius: 10px 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 12px 0 rgba(255, 145, 0, 0.753),
+    0 0 14px 0 rgba(252, 94, 2, 0.438),
+    0 0 17px 0 rgba(255, 0, 0, 0.466);
+    text-transform: uppercase;
+    font-weight: 700;
+}
