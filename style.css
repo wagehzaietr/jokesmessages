@@ -48,4 +48,5 @@ button{
     0 0 17px 0 rgba(255, 0, 0, 0.466);
     text-transform: uppercase;
     font-weight: 700;
+    cursor: pointer;
 }
